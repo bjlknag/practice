@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>friends - cocoa clone</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- To Do: Wifi Icon -->
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <!-- Battery Icon -->
+            <i class="fa fa-battery-full fa-lg" aria-hidden="true"></i>
+            <!-- Lightning Icon -->
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa fa-search fa-2x" aria-hidden="true"></i></span>
+            <span><i class="fa fa-music fa-2x" aria-hidden="true"></i></span>
+            <span><i class="fa fa-cog fa-2x" aria-hidden="true"></i></span>
+        </div>
+    </header>
+
+    <a href="" id="friends-display-link">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        Friends' Names Display
+        <i class="fa fa-chevron-right fa-xs" aria-hidden="true"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/user2.png" class="user-component__avatar user-component__avatar__xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Nicolas</h4>
+                    <!-- <h6 class="user-component__subtitle">subtitle</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa fa-chevron-up fa-xs" aria-hidden="true"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/user2.png" class="user-component__avatar user-component__avatar__sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title__notbold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2
+                        <i class="fa fa-chevron-right fa-xs" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+    </main>
+
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html">
+                    <i class="fa fa-user fa-2x" aria-hidden="true"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa fa-search fa-2x"
+                        aria-hidden="true"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__dot"></span>
+                    <i class="fa fa-ellipsis-h fa-2x" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <i class="fa fa-comment" aria-hidden="true"></i></a>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
